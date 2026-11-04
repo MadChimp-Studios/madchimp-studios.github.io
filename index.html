@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MadChimp Studios</title>
+<meta name="description" content="MadChimp Studios is a small independent studio making mobile games.">
+<style>
+  :root {
+    --bg: #f6f1e7;
+    --card: #fffdf8;
+    --ink: #2b2420;
+    --muted: #6d625a;
+    --accent: #b5532f;
+    --line: #e4dbcc;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #1c1916;
+      --card: #25211d;
+      --ink: #f1ebe2;
+      --muted: #b2a79b;
+      --accent: #e58a5f;
+      --line: #3a342e;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font: 17px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+  main { max-width: 640px; margin: 0 auto; padding: 56px 20px 40px; }
+  h1 { font-size: 2.1rem; line-height: 1.2; margin: 0 0 8px; }
+  h2 { font-size: 1.05rem; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); margin: 40px 0 12px; }
+  h3 { margin: 0 0 4px; font-size: 1.25rem; }
+  p { margin: 0 0 12px; }
+  .lead { color: var(--muted); font-size: 1.1rem; }
+  .game + .game { margin-top: 14px; }
+  .game { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 20px; }
+  .game p { margin-bottom: 10px; }
+  a { color: var(--accent); }
+  .links { display: flex; flex-wrap: wrap; gap: 8px 20px; margin: 0; padding: 0; list-style: none; }
+  footer { margin-top: 48px; padding-top: 16px; border-top: 1px solid var(--line); color: var(--muted); font-size: .9rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>MadChimp Studios</h1>
+  <p class="lead">A small independent studio making mobile games.<br><span lang="pt-BR">Um pequeno estúdio independente de jogos para celular.</span></p>
+
+  <h2>Games</h2>
+  <section class="game">
+    <h3>Village Siege</h3>
+    <p>A short, one-thumb reel-builder roguelite. Spin the Village Wheel, build a chain-reaction engine and survive 12 sieges. Android and iOS.</p>
+    <ul class="links">
+      <li><a href="https://igorfariadev.github.io/madchimp-legal/villagesiege/privacy/">Privacy policy</a></li>
+      <li><a href="mailto:madchimp.support@gmail.com?subject=Village%20Siege">Support</a></li>
+    </ul>
+  </section>
+
+  <section class="game">
+    <h3>Save the Kittens</h3>
+    <p>A rescue puzzle with cute pixel-art cats. Find a clear path, tap to send each kitten running and clear the board before time runs out. Over 2,000 levels across four difficulties. Android and iOS.</p>
+    <ul class="links">
+      <li><a href="https://save-the-kittens-privacy.jpedroabq.workers.dev/">Privacy policy</a></li>
+      <li><a href="mailto:madchimp.support@gmail.com?subject=Save%20the%20Kittens">Support</a></li>
+    </ul>
+  </section>
+
+  <h2>Contact</h2>
+  <p>Support, questions and feedback: <a href="mailto:madchimp.support@gmail.com">madchimp.support@gmail.com</a></p>
+  <p lang="pt-BR">Suporte, dúvidas e sugestões: o mesmo e-mail, em português ou inglês.</p>
+
+  <footer>&copy; 2026 MadChimp Studios</footer>
+</main>
+</body>
+</html>
